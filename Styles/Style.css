@@ -1,3 +1,46 @@
-h1 {
-  background-color: red;
+/* lato font link */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/* Shared styles for all elements */
+* {
+  font-family: "Lato", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.button-primary {
+  background-color: #fd6e0a;
+  text-align: center;
+}
+
+/* Styles for individuals elements */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.nav-container ul > li {
+  list-style-type: none;
+  margin-right: 50px;
+}
+li a {
+  text-decoration: none;
+  color: #474747;
+}
+.link-container {
+  display: flex;
+  align-items: center;
+}
+.hire-button {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 36px;
 }
