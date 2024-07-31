@@ -1,0 +1,69 @@
+/* All shered style */
+/* google fonts style */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+/* Navbar style */
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+ul > li {
+  list-style: none;
+  margin-right: 50px;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+.primary-btn {
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  padding: 18px 35px;
+}
+/* header style */
+.header {
+  background-color: #fff8f3;
+}
+/* banner section style */
+.image {
+  background-image: url("/images/header_bg.png");
+  background-repeat: none;
+  background-size: cover;
+  background-position: left bottom;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 150px;
+}
+.image img {
+  width: 580px;
+  height: 670px;
+  padding-right: 30px;
+}
+.contact {
+  color: #fd6e0a;
+  font-size: 20px;
+  padding: 18px 35px;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  background-color: white;
+}
